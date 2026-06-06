@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site PlaceHolder</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="arq_css.css">
+
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Ocultar scrollbar para o carrossel manual */
+        .hide-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+
+        .hide-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Cabeçalho (Header) -->
+    <!-- Hero Section -->
+    <!-- Seção de Notícias -->
+    <!-- Seção de Vagas com Filtros -->
+    <section id="vagas" class="vagas">
+        <div class="secao-vagas">
+            <div class="cabecalho-secao">
+                <div>
+                    <h2 class="titulo-vagas-p">Oportunidades</h2>
+                    <p class="subtitulo-vagas-p">Encontre a vaga perfeita para o seu perfil e momento de carreira.</p>
+                </div>
+            </div>
+            <div class="secao-filtros">
+                <div class="cartao-filtros">
+                    <h3 class="titulo-filtros">
+                        <i class="fa-solid fa-filter icone-primario"></i> Filtros
+                    </h3>
+                    <div class="opcoes-filtro">
+
+
+                        <div class="grupo-filtro">
+                            <label class="rotulo-filtro" for="filtro-estado">Estado</label>
+                            <select id="filtro-estado" class="campo-selecao">
+                                <option value="">Todos os Estados</option>
+                                <option value="SP">São Paulo (SP)</option>
+                                <option value="RJ">Rio de Janeiro (RJ)</option>
+                                <option value="MG">Minas Gerais (MG)</option>
+                                <option value="PR">Paraná (PR)</option>
+                                <option value="BA">Bahia (BA)</option>
+                            </select>
+                        </div>
+
+
+                        <div class="grupo-filtro">
+                            <label class="rotulo-filtro" for="filtro-cidade">Cidade</label>
+
+                            <select id="filtro-cidade" class="campo-selecao" disabled>
+                                <option value="">Selecione um estado primeiro</option>
+                            </select>
+                        </div>
+
+
+                        <div class="grupo-filtro">
+                            <label class="rotulo-filtro" for="filtro-tipo">Tipo de Vagas</label>
+                            <select id="filtro-tipo" class="campo-selecao">
+                                <option value="">Todos os Tipos</option>
+                                <option value="Estágio">Estágio</option>
+                                <option value="Jovem Aprendiz">Jovem Aprendiz</option>
+                                <option value="Júnior">Júnior</option>
+                                <option value="Pleno">Pleno</option>
+                                <option value="Sênior">Sênior</option>
+                                <option value="Freelance">Freelance</option>
+                            </select>
+                        </div>
+
+
+                        <div class="grupo-filtro">
+                            <label class="rotulo-filtro" for="filtro-area">Área</label>
+                            <select id="filtro-area" class="campo-selecao">
+                                <option value="">Todas as Áreas</option>
+                                <option value="TI">Tecnologia (TI)</option>
+                                <option value="Design">Design / Criativo</option>
+                                <option value="Arquitetura">Arquitetura</option>
+                                <option value="Administrativo">Administrativo</option>
+                                <option value="Vendas">Vendas / Comercial</option>
+                                <option value="Saúde">Saúde</option>
+                            </select>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="lista-vagas">
+                    <div id="lista_vagas" class="grade-vagas">
+
+                    </div>
+                    <div id="msg-sem-vagas" class="mensagem-vazia oculto">
+                        <div class="icone-vazio">
+                            <i class="fa-solid fa-folder-open"></i>
+                        </div>
+                        <h3 class="titulo-vazio">Nenhuma vaga encontrada</h3>
+                        <p class="texto-vazio">Tente ajustar seus filtros para encontrar mais oportunidades.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Seção de Cursos -->
+    <!-- Rodapé -->
+
+    <!-- Scripts da Aplicação -->
+    <script src="arq_javascript.js"></script>
+
+</body>
+
+</html>

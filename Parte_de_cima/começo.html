@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Igualdade Sem Limite - Ocupando espaços, construindo futuros</title>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-logo">
+      <span class="logo-icon">🌸</span>
+      <span class="logo-text">Igualdade Sem Limite</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#">Notícias</a></li>
+      <li><a href="#">Vagas</a></li>
+      <li><a href="#">Cursos</a></li>
+      <li><a href="#">Sobre Nós</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1 class="hero-title">
+        Ocupando espaços,
+        <span class="hero-highlight">construindo futuros.</span>
+      </h1>
+      <p class="hero-desc">
+        Conectamos mulheres às melhores oportunidades do mercado de trabalho.
+        Encontre vagas, cursos de capacitação e fique por dentro das notícias
+        do universo feminino corporativo.
+      </p>
+      <div class="hero-btns">
+        <a href="#" class="btn btn-primary">Ver Vagas</a>
+        <a href="#" class="btn btn-outline">Capacite-se</a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <!-- Troque o src pela sua imagem -->
+      <img src="SUA-IMAGEM.jpg" alt="Mulher profissional sorrindo" />
+    </div>
+  </section>
+
+  <!-- NO RADAR -->
+  <section class="radar">
+    <div class="radar-header">
+      <div class="radar-left">
+        <h2 class="radar-title">No Radar</h2>
+        <p class="radar-sub">Notícias e informações úteis para a sua jornada profissional.</p>
+      </div>
+      <div class="radar-ctrls">
+        <button class="cbtn" id="btnPrev">&#8249;</button>
+        <div class="dots" id="dots"></div>
+        <button class="cbtn" id="btnNext">&#8250;</button>
+      </div>
+    </div>
+    <div class="carousel-outer">
+      <div class="carousel-track" id="track"></div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

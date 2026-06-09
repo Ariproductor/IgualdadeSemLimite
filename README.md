@@ -10,7 +10,7 @@
 
 ## 📖 Sobre o Projeto
 
-**Placeholder** é uma plataforma web voltada para o empoderamento feminino no mercado de trabalho. O projeto reúne em uma única página:
+**Igualdade Sem Limite** é uma plataforma web voltada para o empoderamento feminino no mercado de trabalho. O projeto reúne em uma única página:
 
 - 📰 **Notícias** relevantes para a carreira feminina
 - 💼 **Vagas de emprego** filtráveis por estado, cidade, tipo e área

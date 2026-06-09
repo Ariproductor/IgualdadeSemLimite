@@ -1,4 +1,4 @@
-# 🌱 Placeholder — Oportunidades e Carreira
+# 🌱 Igualdade Sem Limite — Oportunidades e Carreira
 
 > Conectando mulheres às melhores oportunidades do mercado de trabalho brasileiro.
 
